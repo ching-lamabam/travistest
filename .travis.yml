@@ -3,3 +3,10 @@ language: go
 script:
    - echo hello
    - env
+
+services:
+   - docker
+
+script:
+   - docker version
+   - dockerp-compose --version
