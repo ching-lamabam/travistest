@@ -9,4 +9,4 @@ services:
 
 script:
    - docker version
-   - dockerp-compose --version
+   - docker-compose --version
